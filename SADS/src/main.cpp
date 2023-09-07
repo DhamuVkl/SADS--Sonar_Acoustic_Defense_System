@@ -22,31 +22,7 @@ void setup()
   Serial.begin(9600);
   gsm.begin(9600); // Begin serial communication with Arduino and SIM800L
 }
-void loop()
-{
-  pirStat = digitalRead(pirPin);
-  if (pirStat == HIGH)
-  {                             // if motion detected
-    digitalWrite(ledPin, HIGH); // turn LED ON
-    digitalWrite(relayInput, HIGH);
-    XBee.write("  Device Triggered  ");
-    lcd.clear();
-    lcd.setCursor(0, 0);
-    lcd.print("DEVICE TRIGGERED");
-    delay(1000);
-    SendMessage();
-    delay(5000);
-  }
-  else
-  {
-    digitalWrite(ledPin, LOW); // turn LED OFF if we have no motion
-    digitalWrite(relayInput, LOW);
-    lcd.clear();
-    lcd.setCursor(0, 0);
-    lcd.print("DEVICE  INACTIVE");
-    delay(1000);
-  }
-}
+
 void SendMessage() // Function to Send Message
 {
   lcd.setCursor(0, 1);
@@ -71,4 +47,31 @@ void SendMessage() // Function to Send Message
   lcd.setCursor(0, 1);
   lcd.print("Message SENT");
   delay(1000);
+}
+
+
+void loop()
+{
+  pirStat = digitalRead(pirPin);
+  if (pirStat == HIGH)
+  {                             // if motion detected
+    digitalWrite(ledPin, HIGH); // turn LED ON
+    digitalWrite(relayInput, HIGH);
+    XBee.write("  Device Triggered  ");
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("DEVICE TRIGGERED");
+    delay(1000);
+    SendMessage();
+    delay(5000);
+  }
+  else
+  {
+    digitalWrite(ledPin, LOW); // turn LED OFF if we have no motion
+    digitalWrite(relayInput, LOW);
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("DEVICE  INACTIVE");
+    delay(1000);
+  }
 }
