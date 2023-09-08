@@ -57,7 +57,7 @@
 
 * **Customizable Deployment:** The modular design of SADS allows for flexible deployment based on specific needs. It can be strategically positioned to cover critical areas such as elephant corridors and vulnerable villages.
 
-
+![Screen Shot](https://dharageshtech.files.wordpress.com/2023/09/img_20210224_120537.jpg?w=1024)
 
 ## Technologies Used
 
