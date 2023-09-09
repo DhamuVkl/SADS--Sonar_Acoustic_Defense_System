@@ -35,7 +35,7 @@
 ## Key Features
 
 * **Virtual Barrier Technology:** The utilization of a 555 Timer IC and L298N module to superimpose honeybee buzzing sounds with ultrasonic waves. This technique has been proven to enhance the system's effectiveness in deterring elephants.  
-
+ <img align="right" alt="coding" width="300" src="https://dharageshtech.files.wordpress.com/2023/09/modulation.jpg?strip=info&w=600">
 
 * **Early Warning System:** SADS serves as an early warning system, providing timely alerts to authorities and villagers in the event of elephant intrusions. This rapid response capability significantly reduces potential conflicts.  
 
@@ -96,6 +96,7 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. See [LICENSE](https://github.com/dhamuvkl/SADS--Sonar_Acoustic_Defense_System/blob/main/LICENSE.md) for more information.
 
 ## Developments
+<img align="right" alt="coding" width="300" src="https://dharageshtech.files.wordpress.com/2023/09/test.jpg?strip=info&w=600">
 The Sonar Acoustic Defense System (SADS) has undergone a series of transformative developments, each aimed at enhancing its efficacy and applicability in mitigating human-elephant conflict. These advancements have been achieved through a combination of rigorous field testing, cutting-edge technological integrations, and collaborative efforts with experts in wildlife conservation and sensor technology.
 
 One of the most notable strides in SADS' development journey has been the integration of OpenCV-based target tracking technology. This addition has revolutionized the system's capability to accurately identify and track elephants, even in dynamic and challenging environments. By harnessing the power of computer vision, SADS can now respond with heightened precision, ensuring an even greater level of protection for both human communities and elephant populations. also I'm looking forward to implement thermal vision tracking...
