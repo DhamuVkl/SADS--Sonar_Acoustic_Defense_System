@@ -34,7 +34,7 @@
 
 ## Key Features
 
-* **Virtual Barrier Technology:** The utilization of a 555 Timer IC and L298N module to superimpose honeybee buzzing sounds with ultrasonic waves presents an innovative approach. This technique has been proven to enhance the system's effectiveness in deterring elephants.  
+* **Virtual Barrier Technology:** The utilization of a 555 Timer IC and L298N module to superimpose honeybee buzzing sounds with ultrasonic waves. This technique has been proven to enhance the system's effectiveness in deterring elephants.  
 
 
 * **Early Warning System:** SADS serves as an early warning system, providing timely alerts to authorities and villagers in the event of elephant intrusions. This rapid response capability significantly reduces potential conflicts.  
